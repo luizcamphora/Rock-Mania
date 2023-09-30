@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'rock-mania';
+    src: url('/assets/fonts/AllAgesDemo-2DPX.ttf');
+}
+
 #logotipo{
     width: 100%;
     height: 10vh;
@@ -18,6 +23,6 @@
     height: auto;
 }
 #font__logo{
-    font-family: 'Rubik Moonrocks', cursive;
+    font-family: 'rock-mania';
     font-size: 32px;
 }
