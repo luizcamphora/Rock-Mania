@@ -17,3 +17,7 @@
     width: 100%;
     height: auto;
 }
+#font__logo{
+    font-family: 'Rubik Moonrocks', cursive;
+    font-size: 32px;
+}
