@@ -15,87 +15,39 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bungee+Inline&family=Caveat&family=Lobster&family=Rubik+Moonrocks&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Rubik:wght@500&family=Young+Serif&display=swap"
         rel="stylesheet">
 </head>
 
 
 <body>
     <!-- Logotipo + icone carrinho -->
-    <nav class="navbar bg-body-tertiary" id="logotipo">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#" id="font__logo">Rock Mania <img src="/assets/icon/icone__logo.svg" alt="Logo" width="40" height="40"
-                class="d-inline-block align-text-top"></a>
-            <i class="fa-solid fa-cart-shopping"></i>
-        </div>
+    <nav id="logotipo">
+            <a class="navbar-brand" href="#" id="font__logo">Rock Mania <img src="/assets/icon/icone__logo.svg"
+                    alt="Logo" width="40" height="40" class="d-inline-block align-text-top"></a>
+            <i class="fa-solid fa-cart-shopping" id="icone__carrinho"></i>
     </nav>
     <!-- links + search + login -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="navegacao">
-        <div class="container-fluid">
-            <!-- responsividade -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <!-- Links Dropdown -->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <!-- Links Dropdown Masculino -->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Masculino
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                    <!-- Links Dropdown Feminino -->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Feminino
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                    <!-- Links Dropdown Acessórios -->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Acessórios
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
+
+    <nav id="navegacao">
+        <div id="navegacao__link">
+            <ul id="link__list">
+                <li id="lista"><a href="#" id="list__dropdown">Masculino</a></li>
+                <li id="lista"><a href="#" id="list__dropdown">Feminino</a></li>
+                <li id="lista"><a href="#" id="list__dropdown">Acessórios</a></li>
+            </ul>
+        </div>
+        <div id="navegacao__login--search">
+            <div class="input-container">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" id="nav__search" placeholder="Digite o que você procura">
+            </div>
+
+            <div id="nav__login">
+                <ul id="nav__lista">
+                    <li id="nav__lista--link"><a href="#" id="link__login">Login</a></li>
                 </ul>
-                <!-- Input Pesquisa -->
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                </form>
-                <!-- Login -->
-                <div id="login">
-                    <a class="nav-link active" aria-current="page" href="#">Login</a>
-                    <i class="fa-solid fa-right-to-bracket"></i>
-                </div>
+                <i class="fa-solid fa-right-to-bracket" id="icone__login"></i>
             </div>
         </div>
     </nav>

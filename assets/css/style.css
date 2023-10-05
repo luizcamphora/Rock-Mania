@@ -3,26 +3,132 @@
     src: url('/assets/fonts/AllAgesDemo-2DPX.ttf');
 }
 
-#logotipo{
+#logotipo {
     width: 100%;
     height: 10vh;
-}
-#navegacao{
-    width: 100%;
-    height: 10vh;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(243, 239, 239);
 }
 
-#banner{
+#navegacao {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #242424;
+    color: whitesmoke;
+}
+
+#banner {
     width: 100%;
     height: 75vh;
     overflow: hidden;
-    
+
 }
-#banner img{
+
+#banner img {
     width: 100%;
     height: auto;
 }
-#font__logo{
+
+#font__logo {
     font-family: 'rock-mania';
     font-size: 32px;
+}
+
+#link__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#navegacao__link {
+    width: 320px;
+    padding-left: 40px;
+
+}
+
+#navegacao__login--search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 440px;
+    padding-right: 40px;
+}
+
+#nav__login {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 72px;
+}
+
+#nav__lista {
+    margin: 0;
+    padding: 0;
+}
+
+#nav__search {
+    width: 280px;
+    height: 32px;
+    border-radius: 15px;
+    border-style: none;
+}
+
+.input-container {
+    position: relative;
+    display: inline-block;
+}
+
+.input-container i {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: gray;
+}
+
+.input-container input {
+    padding-left: 30px;
+}
+
+#list__dropdown {
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Rubik', sans-serif;
+}
+
+#list__dropdown:hover {
+    color: #ED3051;
+    transition: 1s;
+}
+
+#link__login {
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Rubik', sans-serif;
+}
+
+#link__login:hover {
+    color: #ED3051;
+    transition: 1s;
+}
+
+#icone__login:hover{
+    color: #ED3051;
+    transition: 1s;
+    cursor: pointer;
+}
+#icone__carrinho:hover{
+    color: #ED3051;
+    transition: 1s;
+    cursor: pointer;
 }
