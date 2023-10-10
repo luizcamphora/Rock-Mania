@@ -121,25 +121,29 @@
     transition: 1s;
 }
 
-#icone__login:hover{
+#icone__login:hover {
     color: #ED3051;
     transition: 1s;
     cursor: pointer;
 }
-#icone__carrinho:hover{
+
+#icone__carrinho:hover {
     color: #ED3051;
     transition: 1s;
     cursor: pointer;
 }
-#carousel__slide--first{
+
+#carousel__slide--first {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-#destaques{
+
+#destaques {
     background-color: #EEEEEE;
 }
-#destaques__titulo{
+
+#destaques__titulo {
     margin: 0px 10px 20px 10px;
     padding-top: 50px;
     text-align: center;
@@ -147,9 +151,10 @@
     color: #242424;
 }
 
-#destaques__seta{
+#destaques__seta {
     background-color: #242424;
 }
-#destaques__card{
+
+#destaques__card {
     margin: 30px;
 }
