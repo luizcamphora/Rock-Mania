@@ -28,6 +28,12 @@
     width: 100%;
     height: 60vh;
     overflow: hidden;
+    opacity: 1; 
+    transition: opacity 0.3s;  
+}
+#banner:hover{
+    opacity: 0.9;
+    cursor: pointer;
 }
 
 #banner img {
@@ -35,6 +41,29 @@
     height: auto;
 }
 
+#banner__texto{
+    position: absolute;
+    top: 50%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 10px;
+}
+#banner__texto--larger{
+    font-family: 'rock-mania';
+    font-size: 50px;
+}
+
+#banner__botao{
+    width: 150px;
+    height: 40px;
+    background-color: #ED3051;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Rubik', sans-serif;
+}
 #font__logo {
     font-family: 'rock-mania';
     font-size: 32px;
@@ -50,7 +79,7 @@
 }
 
 #navegacao__link {
-    width: 320px;
+    width: 400px;
     padding-left: 40px;
 
 }
@@ -118,18 +147,18 @@
 
 #link__login:hover {
     color: #ED3051;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 #icone__login:hover {
     color: #ED3051;
-    transition: 1s;
+    transition: 0.5s;
     cursor: pointer;
 }
 
 #icone__carrinho:hover {
     color: #ED3051;
-    transition: 1s;
+    transition: 0.5s;
     cursor: pointer;
 }
 
@@ -145,7 +174,7 @@
 
 #destaques__titulo {
     margin: 0px 10px 20px 10px;
-    padding-top: 50px;
+    padding-top: 20px;
     text-align: center;
     font-family: 'Rubik', sans-serif;
     color: #242424;
@@ -157,4 +186,82 @@
 
 #destaques__card {
     margin: 30px;
+}
+
+#tarja{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EEEEEE;
+}
+
+#tarja__cartao{
+    width: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 30px 10px 30px; 
+    opacity: 1; 
+    transition: opacity 0.3s;
+}
+#tarja__cartao:hover{
+    cursor: pointer;
+    opacity: 0.6; 
+}
+
+#tarja__troca{
+    width: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 30px 10px 30px;
+    opacity: 1; 
+    transition: opacity 0.3s;      
+}
+#tarja__troca:hover{
+    cursor: pointer;
+    opacity: 0.6; 
+}
+#tarja__frete{
+    width: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 30px 10px 30px; 
+    opacity: 1; 
+    transition: opacity 0.3s;   
+}
+#tarja__frete:hover{
+    cursor: pointer;
+    opacity: 0.6; 
+}
+#tarja__seguranca{
+    width: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 30px 10px 30px;
+    opacity: 1; 
+    transition: opacity 0.3s;    
+}
+#tarja__seguranca:hover{
+    cursor: pointer;
+    opacity: 0.6; 
+}
+#icones__tarja{
+    font-size: 45px;
+    color: #ED3051;
+    margin-right: 20px;
+    
+}
+#tarja__titulo{
+    margin: 0 auto;
+    font-family: 'Rubik', sans-serif;
+    color: #242424;
+}
+#tarja__texto{
+    margin: 0 auto;
+    color: #242424;
 }
